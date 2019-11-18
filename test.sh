@@ -9,5 +9,5 @@
  fi
   docker build -t my_app .
  
- docker run -itd -p 8000:4200 --name my_app_container my_app
+ docker run -itd -p 8000:80 --name my_app_container my_app
                            

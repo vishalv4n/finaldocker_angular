@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms'
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule  
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
